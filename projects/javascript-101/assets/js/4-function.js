@@ -66,3 +66,40 @@ function area(length, height){
 }
 
 area(5, 10);
+
+function greet(person1, person2, person3, person4,person5){
+    console.log("Hej," +person1 +"!" )
+    console.log("Hej," +person2 +"!" )
+    console.log("Hej," +person3 +"!" )
+    console.log("Hej," +person4 +"!" )
+    console.log("Hej," +person5 +"!" )
+}
+greet("Adam","Knurt","Billy Bobber","Freddy","Lara");
+
+/*
+********************
+functions- return
+********************
+*/
+
+// Tänk er att en funktion är ungefär som en maskin.
+//Funktionen tar några inputs(argument)
+//Dessa argument används sedan inuti funktionen på något sätt -
+//Kanske matematiska beräkningar - kollar om värdet stämmer överens
+//Sedan returnerar funktionen ett värde, någon sorts output
+//
+//
+//
+//
+
+function squared(x){
+    return x * x;
+}
+console.log("4 squared is:" + squared(4));
+
+
+//Return  kan endast 
+//
+//
+var result = squared(10);
+console.log(result);
