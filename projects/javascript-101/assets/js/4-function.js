@@ -162,14 +162,14 @@ JS Scope
 **********************
 */
 
-function localScope(){
+/*function localScope(){
     var showScope = 31;
     console.log(showScope);
 }
 localScope();
 console.log(showScope);
 
-var showScope = "I´m a Global hentai-master";//Global variable === accessible in the entire script
+var showScope = "I´m a Global Elite";//Global variable === accessible in the entire script
 console.log(showScope)
 
 var showScope = 99; // Global variabel
@@ -179,6 +179,36 @@ function localScopeY(){
 }
 console.log(showScopeY);//Global showscopeY
 localScopeY();
-console.log(showScopeY);
+console.log(showScopeY);*/
 
-h
+function sing(){
+    console.log("I´wanna be the very best");
+    console.log("lIKE NO ONE EVER WAAS");
+
+}
+
+//setInterval(sing, 2500);
+
+/*var anon = setInterval(function(){
+    console.log("I´m an Anonymus loli-girl");
+},3000);*/
+
+function mytimer(){
+    var d = new Date();
+    document.getElementById("output").innerHTML = d.toLocaleTimeString();
+}
+
+mytimer();
+
+var myTime = setInterval(mytimer, 1000);
+
+
+document.getElementsByTagName("button")[0].addEventListener("mouseenter", function(){
+  clearInterval(myTime);   
+});
+
+document.querySelector("button").addEventListener("mouseleave", function(){
+   myTime = setInterval(mytimer,1000);
+});
+
+
