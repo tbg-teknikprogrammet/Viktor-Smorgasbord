@@ -111,3 +111,58 @@ console.log(cars[i]);
 Arrays-iteration-forEach
 ***************************
 */
+
+// JavaScript provides an easy built-in way of iteration over an array: forEach, a method
+//Concept: yourArray.forEach(aFunction); Most often written with an anonymous function
+//forEach is more common to use when iterating an array
+
+var countries = ["Sweden", "Norway", "Finland", "Denmark", "Island"];
+countries.forEach(function(country){
+    console.log(country);
+});
+function countryList(country){
+    console.log("*************");
+    country.log(country);
+    console.log("*************");
+    console.log("");
+}
+
+countries.forEach(countryList);
+
+//Skillnad mellan en for loop och forEach method är att i for-loopen hanterar vi ett nummer
+//en array, vilket loopar 
+
+
+/*
+**************************
+arrays-skriftlig övning
+***************************
+*/
+
+//Write a function printReverse() that takes an array
+//as an argument and prints out the elements in the array
+// in reverse order (don´t actually reverse the array itself)
+
+[1,2,3,4,5] // 5 4 3 2 1
+
+
+function printReverse(arr){
+    for(var i = arr.length-1; i >=0; i--){
+        console.log(arr[i]);
+    }
+}
+printReverse([1,2,3,4,5]);
+printReverse(["5","4","3","2","1",]);
+
+// works also console.log(arr.reverse());
+
+//Write a function isIdentical() which takes an array as an argument
+// and returns true if all elements in the array are identical
+
+function isIdentical(arr){
+    var first = i >=0  ;
+}
+
+console.log(isIdentical(1,1,1,1,)); //true
+console.log(isIdentical(1,1,1,2,)); //false
+var 
