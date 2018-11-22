@@ -165,4 +165,4 @@ function isIdentical(arr){
 
 console.log(isIdentical(1,1,1,1,)); //true
 console.log(isIdentical(1,1,1,2,)); //false
-var 
+var 8888
