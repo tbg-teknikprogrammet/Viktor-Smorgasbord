@@ -175,4 +175,4 @@ console.log(isIdentical([1,1,1,1,1])); //true
 console.log(isIdentical([1,1,1,2,2])); //false
 
 
-[1,4,123,4,2,1]
+[1,4,123,4,2,1];
