@@ -160,9 +160,19 @@ printReverse(["5","4","3","2","1",]);
 // and returns true if all elements in the array are identical
 
 function isIdentical(arr){
-    var first = i >=0  ;
+    var first = arr[0] ;
+    for(var i = 0; i<=arr.length; i++ ){
+        if (arr[i] ==  first);
+        return true;
+    }
 }
 
-console.log(isIdentical(1,1,1,1,)); //true
-console.log(isIdentical(1,1,1,2,)); //false
-var 8888;
+var first;
+const second;
+let third;
+
+console.log(isIdentical([1,1,1,1,1])); //true
+console.log(isIdentical([1,1,1,2,2])); //false
+
+
+[1,4,123,4,2,1]
