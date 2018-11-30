@@ -1,4 +1,5 @@
 //list a group of friends
+/*
 var friend1 = "Knurt"
 var friend2 = "Berit"
 var friend3 = "Coco"
@@ -23,12 +24,13 @@ console.log(friends[2] + "<3" + friends[3] );
 Arrays- different ways and values
 ***********************************
 */
-
+/*
 var colors = [];//standard
 var color
 s = new Array();//Not that common
 var randomArray = ["string", 31, true, false];
 console.log(randomArray.length);
+
 /*
 *******************************
 Arrays - built-in methods
@@ -40,7 +42,7 @@ Arrays - built-in methods
 // push(), pop(), shift() unshift, indexOf(), slice,
 
 //push() - add an item at the end of an array
-colors = ["red","green", "blue"];
+/*colors = ["red","green", "blue"];
 console.log(colors);
 colors.push("purple");
 console.log(colors);
@@ -55,7 +57,7 @@ colors.unshift("yellow");
 console.log(colors);
 
 // shift() - remove an item at the start of the array
-color.shift();
+/*color.shift();
 console.log(colors);
 
 //indexOf() - find the index of an item in the array
@@ -87,7 +89,7 @@ Arrays-muntligt
 console.log(numbers[numbers.length]);
 */
 
-var friendGroups = [
+/*var friendGroups = [
     ["A-dog", "B-dog", "C-dog"],
     ["F-cat", "G-cat", "H-cat"],
     ["I-man", "J-man", "K-man"],
@@ -100,7 +102,7 @@ Arrays- iteration-upprepning
 ******************************
 */
 //               0          1           2           3       4       5       6
-var cars = ["Thanos car", "BMW","Ford mustang","Ferrari","Lada","Landa","Vore car"];
+/*var cars = ["Thanos car", "BMW","Ford mustang","Ferrari","Lada","Landa","Vore car"];
 for(var i = 0; i < cars.length; i++){
 console.log(cars[i]);
 }
@@ -116,7 +118,7 @@ Arrays-iteration-forEach
 //Concept: yourArray.forEach(aFunction); Most often written with an anonymous function
 //forEach is more common to use when iterating an array
 
-var countries = ["Sweden", "Norway", "Finland", "Denmark", "Island"];
+/*var countries = ["Sweden", "Norway", "Finland", "Denmark", "Island"];
 countries.forEach(function(country){
     console.log(country);
 });
@@ -143,7 +145,7 @@ arrays-skriftlig övning
 //as an argument and prints out the elements in the array
 // in reverse order (don´t actually reverse the array itself)
 
-[1,2,3,4,5] // 5 4 3 2 1
+/*[1,2,3,4,5] // 5 4 3 2 1
 
 
 function printReverse(arr){
@@ -158,21 +160,22 @@ printReverse(["5","4","3","2","1",]);
 
 //Write a function isIdentical() which takes an array as an argument
 // and returns true if all elements in the array are identical
-
+*/
 function isIdentical(arr){
     var first = arr[0] ;
-    for(var i = 0; i<=arr.length; i++ ){
-        if (arr[i] ==  first);
-        return true;
+    for(var i = 0; i < arr.length; i++ ){
+        if (arr[i] !== first){
+            return false;
+        }
     }
+    return true;
 }
 
-var first;
-const second;
-let third;
+//var first;
+//let third;
 
 console.log(isIdentical([1,1,1,1,1])); //true
 console.log(isIdentical([1,1,1,2,2])); //false
 
 
-[1,4,123,4,2,1];
+//[1,4,123,4,2,1];
