@@ -1,15 +1,29 @@
-!<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Todo-list</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="assets/js/todo.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+   
+    
 </head>
 <body>
-
-    
+        <div id="myDIV" class="header">
+                <h2>My To Do List</h2>
+                <input type="text" id="myInput" placeholder="Add...">
+                <span onclick="newElement()" class="addBtn">Add</span>
+              </div>
+              
+              <ul id="XL">
+                <li>Hit the 5 Dabs</li>
+                <li class="*">Feed my Pikachu</li>
+                <li>Meet George</li>
+                <li>Be the best Smash player</li>
+                <li>Pet my Pikachu</li>
+                <li>Catch all Momsters</li>
+              </ul>
+              <script src="assets/js/todo.js"></script>
 </body>
 </html>
