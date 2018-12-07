@@ -19,7 +19,7 @@ for (i = 0; i < close.length; i++) {
   }
 }
 
-//Adds a checkmark to your list item on click
+//Adds a checkmark to your list item on click!
 var list = document.querySelector('ul');
 list.addEventListener('click', function(ev) {
   if (ev.target.tagName === 'LI') {
