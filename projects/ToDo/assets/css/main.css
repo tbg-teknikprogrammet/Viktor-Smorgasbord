@@ -11,7 +11,7 @@ ul {
 
 
 ul li {
-    cursor: pointer;
+    cursor:wait;
     position: relative;
     padding: 12px 8px 12px 40px;
     background: #eee;
@@ -104,11 +104,11 @@ input {
     float: left;
     text-align: center;
     font-size: 16px;
-    cursor: pointer;
+    cursor:progress;
     transition: 0.3s;
     border-radius: 0;
 }
 
 .addBtn:hover {
-    background-color: #bbb;
+    background-color: rgb(216, 25, 184);
 }
