@@ -97,4 +97,4 @@ console.log(posts[1].comments[0]);
 for (var i = 0; i < posts.length; i++) {
     console.log(posts[i].title,posts[i].author,posts[i].comments,);
 
-}
+}hh
