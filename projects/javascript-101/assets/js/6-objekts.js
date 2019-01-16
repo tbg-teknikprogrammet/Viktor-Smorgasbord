@@ -97,4 +97,17 @@ console.log(posts[1].comments[0]);
 for (var i = 0; i < posts.length; i++) {
     console.log(posts[i].title,posts[i].author,posts[i].comments,);
 
-}hh
+}
+var  anObject ={};
+anObject. _name = "hedwig"; //valid
+anObject. author = "Bowsi"; // valid
+
+/*
+********************************************************
+Create ur own code- movieDB - invididual eggsdeercise
+*********************************************************
+*/
+
+//Create an array of movie objects
+// Each movie has title,rating and haswatched property
+//
