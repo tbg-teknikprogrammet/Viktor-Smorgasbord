@@ -98,16 +98,48 @@ for (var i = 0; i < posts.length; i++) {
     console.log(posts[i].title,posts[i].author,posts[i].comments,);
 
 }
-var  anObject ={};
-anObject. _name = "hedwig"; //valid
-anObject. author = "Bowsi"; // valid
+//var  anObject ={};
+//anObject. _name = "hedwig"; //valid
+//anObject. author = "Bowsi"; // valid
 
 /*
 ********************************************************
-Create ur own code- movieDB - invididual eggsdeercise
+Create ur own codyu76e- movieDB - invididual eggsdeercise
 *********************************************************
 */
 
 //Create an array of movie objects
 // Each movie has title,rating and haswatched property
 //
+var seen;
+var movies = [
+{
+    title: "Bible black",
+    rating: "U need to donate to my paypal to find out my rating ;)",
+    hasWatched: false,
+    
+},
+{
+    title: "Deadpool 2",
+    rating: "9/10 Killed PedoS",
+    hasWatched: true,u,8
+
+
+},
+{
+    title: "Spider-man into the Spider-verse",
+    rating: "9/10 Spideys",
+    hasWatched: true,
+},
+{
+    title: "glass",
+    rating: "dunno :C",
+    hasWatched: false,
+},
+movies.forEach(function(element){
+    console.log(movie)
+
+})
+]
+
+
