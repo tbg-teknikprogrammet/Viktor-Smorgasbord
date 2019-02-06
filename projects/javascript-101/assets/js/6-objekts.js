@@ -111,35 +111,55 @@ Create ur own codyu76e- movieDB - invididual eggsdeercise
 //Create an array of movie objects
 // Each movie has title,rating and haswatched property
 //
-var seen;
 var movies = [
-{
+{   //movie 1
     title: "Bible black",
     rating: "U need to donate to my paypal to find out my rating ;)",
     hasWatched: false,
     
 },
-{
+{   //movie 2
     title: "Deadpool 2",
     rating: "9/10 Killed PedoS",
-    hasWatched: true,u,8
+    hasWatched: true,
 
 
 },
-{
+{   //movie 4
     title: "Spider-man into the Spider-verse",
     rating: "9/10 Spideys",
     hasWatched: true,
 },
-{
+{   //movie 5
     title: "glass",
     rating: "dunno :C",
     hasWatched: false,
-},
-movies.forEach(function(element){
-    console.log(movie)
+    }
+];
 
-})
-]
+
+
+
+//movies.forEach(function(allMovies){
+    /*if(movies.hasWatched === true){
+        //console.log(movies.title)
+        console.log ("- You have watched" + movies.title + "["+ movies.rating +"]");
+    }
+    else
+    console.log("- You haven´t watched"+movies.title + "["+ movies.rating +"]");*/
+//});
+    function movieDB(movies) {
+    if(movies.hasWatched === true){
+        //console.log(movies.title)
+        console.log ("- You have watched " + movies.title + "["+ movies.rating +"]");
+    }
+    else
+    console.log("- You haven´t watched_"+movies.title + "["+ movies.rating +"]");
+
+}
+movies.forEach(movieDB);
+//});
+console.log(movieDB);
+var result = "You have";
 
 
