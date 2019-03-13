@@ -6,13 +6,16 @@
     <title>ScoreKepper</title>
 </head>
 <body>
-    <H1><span>0</span>-<span>0</span></H1>
-    <P>Play to<span></span></P>
+    <h1>ScoreKepper</h1>
+    <H1><span id="P1Score">U</span>w<span id="P2Score">U</span></H1>
+    <P>Play to...( ͡° ͜ʖ ͡°)<span id="PlayingTO">7</span></P>
 <form>
-    <input type="number">
-        <input type="button" value="Click me" onclick="msg()">
-        <input type="button" value="Click me" onclick="msg()">
-        <input type="button" value="Click me" onclick="msg()">
+    <input type="number" min="0" max="7">
+        <input type="button" id="p1" value="Player One">
+        <input type="button" id="p2" value="Player Two">
+        <input type="button" id="R" value="Reset" >
+        <h1 id="Winner"></h1>
+        <script src="assets/js/pp.js" type="text/javascript"></script>
 </form>
 </body>
 </html>
