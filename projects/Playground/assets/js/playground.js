@@ -6,3 +6,4 @@ var Re2 = document.getElementById("Re2");
 Re2.addEventListener("click",function(){
     bg.style.backgroundColor = "Grey";
 }); 
+/*
