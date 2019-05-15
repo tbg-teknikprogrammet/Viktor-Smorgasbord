@@ -7,3 +7,5 @@ Re2.addEventListener("click",function(){
     bg.style.backgroundColor = "Grey";
 }); 
 /*
+
+*/
