@@ -2,7 +2,7 @@
 
 .grid-container{
     display:grid;
-    background-color:white ;
+    background-color:green;
     grid-template-columns:1fr 1fr 1fr ;
     grid-gap:20px;
     padding: 8px;
@@ -10,33 +10,38 @@
 
 }
 .box1{
-    background-color: blueviolet;
+    background-color:black;
     border:1px solid grey;
     margin-right: 8px;
 }
 .box2{
-    background-color: blueviolet;
+    background-color: green;
+    
      
     border:1px solid grey;
    
 }
+.hej{
+    background-color:brown;
+}
+
 .box3{
-    background-color: blueviolet;
+    background-color: black;
     border:1px solid grey;
     
 }
 .box4{
-    background-color: blueviolet;
+    background-color: red;
     border:1px solid grey;
     
 }
 .box5{
-    background-color: blueviolet;
+    background-color: black;
     border:1px solid grey;
     
 }
 .box6{
-    background-color: blueviolet;
+    background-color: red;
     border:1px solid grey;
     
 }

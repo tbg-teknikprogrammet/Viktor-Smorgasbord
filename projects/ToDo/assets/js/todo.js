@@ -1,4 +1,26 @@
-var todos = [];
+
+document.getElementsByTagName("button")[0].addEventListener("click",menu);
+//On button click starts a while loop
+function menu(vector){ //running the function menu and creates an empty array
+  var vector =[];
+  var input = 0;
+  while(input != "quit");{
+    input = prompt("what would you like to change")
+    switch(input){ // same as else
+      case "new": // adds a new item to the end of an array
+      input = prompt("WHat will you remember?");
+      vector.push(input);
+
+    }
+  }
+}
+
+
+
+
+
+
+/*var todos = [];
 var btnActive = document.getElementById("activate")
 btnActive.addEventListener("click", function(){
   var input = prompt("Will you do what?");
@@ -29,4 +51,4 @@ btnActive.addEventListener("click", function(){
     if (input === "quit" || input === "quit"){
       console.log(">>> ok, U have quit the app")
     }
-  });
+  });*/
