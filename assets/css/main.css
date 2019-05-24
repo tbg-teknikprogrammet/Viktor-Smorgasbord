@@ -8,14 +8,14 @@ body{
 main {
     background-color: blueviolet;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 3px;
     margin-top: 5%;
     margin-right: 5%;
     margin-left: 5%;
 }
 main a {
-    min-height:200px;
+    min-height:150px;
     background-color:plum;
     
 }

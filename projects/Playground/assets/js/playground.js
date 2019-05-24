@@ -5,9 +5,13 @@ var isBlue = false;
 var Re2 = document.getElementById("Re2");
 Re2.addEventListener("click",function(){
     bg.classList.toggle("hej");
+    
 
     //bg toggla en klass med bg färg
-}); 
+});
+
+
+
 /*
 
 */

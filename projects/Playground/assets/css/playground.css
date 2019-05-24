@@ -1,8 +1,11 @@
 @charset "utf-8";
 
+body{
+    background: black;
+}
 .grid-container{
     display:grid;
-    background-color:green;
+    background-color:black;
     grid-template-columns:1fr 1fr 1fr ;
     grid-gap:20px;
     padding: 8px;
@@ -15,14 +18,14 @@
     margin-right: 8px;
 }
 .box2{
-    background-color: green;
+    background-color: white;
     
      
     border:1px solid grey;
    
 }
 .hej{
-    background-color:brown;
+    background-color:white;
 }
 
 .box3{
