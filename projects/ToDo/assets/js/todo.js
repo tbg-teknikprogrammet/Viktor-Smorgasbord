@@ -21,7 +21,7 @@ function menu(Arr)//Makes an array
                 console.log("you have deleted index: " + input + " from the list!")
             } else if (input == "quit"){
               break;
-            } else {//try catchs
+            } else {//try catch
               console.log("please try again.")
             }
     }
