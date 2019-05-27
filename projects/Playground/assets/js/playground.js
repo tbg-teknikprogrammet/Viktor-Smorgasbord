@@ -39,3 +39,16 @@ R.addEventListener("click",function(){
     p2Display.innerHTML = p2Score
 })
 //hj
+//clicker
+var btn = document.getElementById("click1");
+  count = 0;
+btn.onclick = function() {
+  count += 1;
+  btn.innerHTML = " Yes Keep going!!: " + count;
+};
+//verkar inte funka 
+// DOes A Barrelroll Fox style
+var spinbtn = document.getElementById("click4");
+spinbtn.addEventListener("click", function() {
+  document.getElementById("spins").classList.toggle("rotate");
+});

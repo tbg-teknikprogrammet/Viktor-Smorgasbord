@@ -1,3 +1,4 @@
+    
 @charset "utf-8";
 
 body{
@@ -11,6 +12,9 @@ body{
     padding: 8px;
     height:580px;
 
+}
+.box1{
+    background-color: grey;
 }
 
 .box2{
