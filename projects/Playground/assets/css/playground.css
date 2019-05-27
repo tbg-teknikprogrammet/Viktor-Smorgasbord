@@ -5,18 +5,14 @@ body{
 }
 .grid-container{
     display:grid;
-    background-color:black;
+    background-color:white;
     grid-template-columns:1fr 1fr 1fr ;
     grid-gap:20px;
     padding: 8px;
     height:580px;
 
 }
-.box1{
-    background-color:black;
-    border:1px solid grey;
-    margin-right: 8px;
-}
+
 .box2{
     background-color: white;
     
@@ -28,24 +24,27 @@ body{
     background-color:white;
 }
 
-.box3{
-    background-color: black;
+.game{
+    background-color:grey;
     border:1px solid grey;
-    
+    padding: 10px;
 }
 .box4{
-    background-color: red;
+    background-color:grey;
     border:1px solid grey;
+    padding: 10px;
     
 }
 .box5{
-    background-color: black;
+    background-color:grey;
     border:1px solid grey;
+    padding: 10px;
     
 }
 .box6{
-    background-color: red;
+    background-color:grey;
     border:1px solid grey;
+    padding: 10px;
     
 }
 .grid-items{
