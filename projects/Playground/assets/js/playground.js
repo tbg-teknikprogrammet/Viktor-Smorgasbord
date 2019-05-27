@@ -38,4 +38,4 @@ R.addEventListener("click",function(){
     p2Score = 0
     p2Display.innerHTML = p2Score
 })
-
+//hj
